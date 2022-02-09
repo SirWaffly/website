@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.title {
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 500%;
+    margin-top: 2%;
+    margin-left: 2%;
+    user-select: none;
+}
+
+.text {
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    font-size: 200%;
+    user-select: none;
+}
+
+#div1 {
+    margin-left: 2%;
+    width: 50%;
+}
+
+.link {
+    color: rgb(150, 150, 150);
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.link:visited {
+    color: rgb(150, 150, 150);
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.link:active {
+    color: rgb(150, 150, 150);
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgb(223, 171, 75);
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.imgFooter {
+    height: 30px;
+    width: 37px;
+    float: left;
+    padding-top: 20px;
+    padding-left: 23px;
+}
+
+#discord {
+    background-color: rgb(223, 171, 75);
+    outline: rgb(223, 171, 75) solid 1px;
+    margin-left: 50px;
+    margin-top: 360px;
+    border-radius: 60px;
+    cursor: pointer;
+    height: 70px;
+    float: left;
+    width: 200px;
+    transition: all 0.1s ease-in-out;
+}
+
+#discord:hover {
+    background-color: rgb(255, 255, 255);
+    outline: rgb(223, 171, 75) solid 5px;
+    margin-left: 50px;
+    margin-top: 360px;
+    border-radius: 60px;
+    cursor: pointer;
+    height: 70px;
+    float: left;
+    width: 200px;
+    transform: scale(1.1);
+    transition: all 0.1s ease-in-out;
+}
+
+.textFooter {
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(39, 39, 39);
+    font-size: 28px;
+    user-select: none;
+    float: left;
+    margin-top: 19px;
+    padding-left: 10px;
+    font-weight: bolder;
+}
