@@ -1,12 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Varela+Round&display=swap');
+
+/*navbar*/
+body {
+    margin:0;
+    padding:0;
+
+}
+
+header   {
+    margin:0;
+    padding:0;
+}
+
+header ul {
+    margin-top: 0;
+    display: flex;
+    border-bottom: solid rgb(207, 52, 207) 1px ;
+    padding: 18px;
+	background-color: #0f0f0f;
+    font-size: 230%;
+}
+
+.nav_links {
+	list-style: none
+    rgb(226, 122, 226);
+}
+
+.nav_links li {
+	display: inline-block;
+	padding: 0px 40px;
+    color: rgb(240, 123, 240);
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bolder;
+}
+
+.nav_links li a {
+	transition: all 0.1s ease 0s;
+    text-decoration: none;
+    color: rgb(207, 119, 207);
+}
+
+.nav_links li a:hover {
+	color: rgb(160, 52, 145);
+    transition: all 0.1s ease-in-out;
+}
+
+/*navbar*/
 
 .title {
     font-family: 'Varela Round', sans-serif;
     color: white;
     font-weight: bold;
     font-size: 500%;
-    margin-top: 10%;
-    margin-left: 10%;
+    margin-top: 6.5%;
+    margin-left: 14%;
     user-select: none;
 }
 
@@ -23,7 +72,7 @@
 }
 
 #div1 {
-    margin-left: 5%;
+    margin-left: 10%;
     width: 90%;
     text-align: justify;
 }
@@ -58,7 +107,7 @@
 
 #discord {
     outline: rgb(207, 52, 207) solid 2px;
-    margin-left: 8%;
+    margin-left: 13%;
     margin-top: 50px;
     border-radius: 60px;
     cursor: pointer;
@@ -195,4 +244,16 @@
     transition: all 0.2s ease-in-out;
     cursor: pointer;
     transform: scale(1.23);
+}
+
+#nhtbs {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -20%);
+    font-size: 400%;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
 }
