@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Varela+Round&display=swap');
 
 /*navbar*/
+
 body {
     margin:0;
     padding:0;
@@ -19,8 +20,50 @@ header ul {
     border-bottom: solid rgb(207, 52, 207) 1px ;
     padding: 18px;
 	background-color: #0f0f0f;
-    font-size: 230%;
+    font-size: 250%;
 }
+
+/*fotos nav*/
+
+#fotosnav{
+    width: 6%
+}
+
+#fotoesp {
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+#fotoesp:hover {
+    width: 100%;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.1s ease-in-out;
+}
+
+#fotonothin {
+    width: 15%
+}
+
+#fotoeng {
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+#fotoeng:hover {
+    width: 100%;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.1s ease-in-out;
+}
+
+.lik{
+    padding: 0px !important;
+}
+
+/*fotos nav*/
 
 .nav_links {
 	list-style: none
@@ -28,23 +71,37 @@ header ul {
 }
 
 .nav_links li {
-	display: inline-block;
+	display: flex;
 	padding: 0px 40px;
     color: rgb(240, 123, 240);
     font-family: 'Baloo Bhaijaan 2', cursive;
     font-family: 'Varela Round', sans-serif;
     font-weight: bolder;
+    padding: auto;
 }
 
 .nav_links li a {
 	transition: all 0.1s ease 0s;
     text-decoration: none;
     color: rgb(207, 119, 207);
+    padding: auto;
 }
 
 .nav_links li a:hover {
 	color: rgb(160, 52, 145);
     transition: all 0.1s ease-in-out;
+    user-select: none;
+    cursor: pointer;
+}
+
+.langdiv {
+    width: 10%;
+    padding: 0%;
+}
+
+.lang {
+    width: 50%;
+    height: 60%;
 }
 
 /*navbar*/
