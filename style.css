@@ -26,17 +26,17 @@ header ul {
 /*fotos nav*/
 
 #fotosnav{
-    width: 6%
+    width: 130px;
 }
 
 #fotoesp {
-    width: 100%;
+    width: 40%;
     cursor: pointer;
     transition: all 0.1s ease-in-out;
 }
 
 #fotoesp:hover {
-    width: 100%;
+    width: 40%;
     cursor: pointer;
     transform: scale(1.1);
     transition: all 0.1s ease-in-out;
@@ -47,20 +47,16 @@ header ul {
 }
 
 #fotoeng {
-    width: 100%;
+    width: 40%;
     cursor: pointer;
     transition: all 0.1s ease-in-out;
 }
 
 #fotoeng:hover {
-    width: 100%;
+    width: 40%;
     cursor: pointer;
     transform: scale(1.1);
     transition: all 0.1s ease-in-out;
-}
-
-.lik{
-    padding: 0px !important;
 }
 
 /*fotos nav*/
